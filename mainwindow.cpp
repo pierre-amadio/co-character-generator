@@ -193,13 +193,11 @@ if(!query.exec()){
 refreshDbViewer();
 }
 
-void MainWindow::displayCharacterSheet(){
-    qDebug()<<"Displaying character sheet";
+void MainWindow::displayCharacterSheet(){    
     QModelIndex item=ui->dbCharListViewer->currentIndex();
     QModelIndex idIdx;
     idIdx=dbModel->index(item.row(),0);
     int charId=dbModel->data(idIdx).toInt();
-    qDebug()<<charId;
 
     characterSheetViewerForm shV(charId,this);
     shV.exec();

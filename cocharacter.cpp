@@ -27,7 +27,6 @@ coCharacter::coCharacter()
 }
 
 coCharacter::coCharacter(int charId){
-    qDebug()<<"Creating character for id="<<charId;
     QSqlQuery query;
 
     query.prepare("select id,name,strenght,dex,constitution,intelligence,sag,"

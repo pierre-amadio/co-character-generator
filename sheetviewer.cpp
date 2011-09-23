@@ -27,8 +27,6 @@
 sheetViewer::sheetViewer(QWidget *parent) :
         QWidget(parent)
 {
-        qDebug()<<"A new viewer";
-
         sheetPixMap= new QPixmap(":/images/sheetTemplate.jpg");
         this->setSizePolicy(QSizePolicy::Expanding,QSizePolicy::Expanding);
         //this->setMinimumSize(200,200);
@@ -45,7 +43,6 @@ sheetViewer::~sheetViewer()
 QSize sheetViewer::sizeHint() const{
     //QSize size(100,20);
     QSize size=sheetPixMap->size();
-    qDebug()<<"Returning the following sizeHint"<<size;
     return size;
 }
 
