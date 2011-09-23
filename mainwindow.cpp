@@ -53,6 +53,8 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->dbCharListViewer->setSelectionMode(QAbstractItemView::SingleSelection);
     ui->dbCharListViewer->setEditTriggers(QAbstractItemView::NoEditTriggers);
 
+    this->setWindowTitle(tr("Forgotten Chronicles"));
+
     refreshDbViewer();
 
 }

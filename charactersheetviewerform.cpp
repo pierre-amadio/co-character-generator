@@ -35,6 +35,7 @@ characterSheetViewerForm::characterSheetViewerForm(int charId,QWidget *parent) :
     ui->sheetViewerWidget->setCharacter(charId);
     connect(ui->closeButton,SIGNAL(clicked()),this,SLOT(closeWindow()));
     connect(ui->printButton,SIGNAL(clicked()),this,SLOT(printIt()));
+    this->setWindowTitle(tr("Character Sheet."));
 }
 
 characterSheetViewerForm::~characterSheetViewerForm()

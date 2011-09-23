@@ -35,6 +35,7 @@ randomCaracForm::randomCaracForm(QWidget *parent) :
     connect(ui->rollDicesButton,SIGNAL(clicked()),this,SLOT(rollDice()));
     connect(this,SIGNAL(displayResultSet(QVector<int>)),this->ui->carDiceView,SLOT(showResult(QVector<int>)));
 
+    this->setWindowTitle(tr("Dice Roll Emulator."));
 
 
 

@@ -41,6 +41,7 @@ CreateCharacterForm::CreateCharacterForm(QWidget *parent) :
     ui->sagEdit->setValidator(new QRegExpValidator(regExp,this));
     ui->chaEdit->setValidator(new QRegExpValidator(regExp,this));
 
+
     this->init_stuff();
 }
 
@@ -91,6 +92,7 @@ CreateCharacterForm::~CreateCharacterForm()
 void CreateCharacterForm::init_stuff(){
     //qDebug()<<"Init stuff()";
     coRules rules= coRules();
+    this->setWindowTitle(tr("Character Creation Form."));
     ui->forModEdit->setReadOnly(true);
     ui->dexModEdit->setReadOnly(true);
     ui->conModEdit->setReadOnly(true);
