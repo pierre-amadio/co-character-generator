@@ -1,5 +1,5 @@
 /*
-    CO is a small character creation tool to be used with Croniques Oubliées.
+    CO is a small character creation tool to be used with Chroniques Oubliées.
     Copyright (C) 2011 Pierre Amadio <pierre.amadio@libertysurf.fr>
 
     This program is free software: you can redistribute it and/or modify
