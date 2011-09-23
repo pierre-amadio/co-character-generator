@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/d6-1.jpg</file>
+        <file>images/d6-2.jpg</file>
+        <file>images/d6-3.jpg</file>
+        <file>images/d6-4.jpg</file>
+        <file>images/d6-5.jpg</file>
+        <file>images/d6-6.jpg</file>
+        <file>images/sheetTemplate.jpg</file>
+	<file>translations/co_fr.qm</file>
+    </qresource>
+</RCC>
