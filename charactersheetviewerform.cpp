@@ -55,7 +55,6 @@ void characterSheetViewerForm::printIt(){
     QPrinter printer;
     QPrintDialog printDialog(&printer,this);
     if(printDialog.exec()){
-        qDebug()<<"Let s print it ";
         QPainter painter(&printer);
         QRect rect= painter.viewport();
         QSize size=image.size();
