@@ -53,6 +53,7 @@ DiceView::~DiceView()
 }
 
 void DiceView::setText(QString snt){
+    Q_UNUSED ( snt );
    //qDebug()<< "Why should i override setText() ?"<< snt;
 }
 

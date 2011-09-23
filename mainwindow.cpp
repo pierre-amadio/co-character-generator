@@ -129,6 +129,8 @@ void MainWindow::newCharacterFreeInput(){
 }
 
 void MainWindow::dbViewSelectionChanged(const QItemSelection &selected, const QItemSelection &deselected){
+    Q_UNUSED ( selected );
+    Q_UNUSED ( deselected );
     ui->deleteCharButton->setEnabled(true);
     ui->viewSheetButton->setEnabled(true);
 }

@@ -179,68 +179,87 @@ void CreateCharacterForm::init_stuff(){
 
 
 void CreateCharacterForm::forLineEditChanged(QString str) {
+    Q_UNUSED ( str );
     setForModifier();
 }
 
 void CreateCharacterForm::dexLineEditChanged(QString str) {
+    Q_UNUSED ( str );
+
     setDexModifier();
 }
 
 void CreateCharacterForm::conLineEditChanged(QString str) {
+    Q_UNUSED ( str );
     setConModifier();
 }
 
 void CreateCharacterForm::intLineEditChanged(QString str) {
+    Q_UNUSED ( str );
     setIntModifier();
 }
 
 void CreateCharacterForm::sagLineEditChanged(QString str) {
+    Q_UNUSED ( str );
     setSagModifier();
 }
 
 void CreateCharacterForm::chaLineEditChanged(QString str) {
+    Q_UNUSED ( str );
     setChaModifier();
 }
 
 
 void CreateCharacterForm::forModChanged(QString str){
+    Q_UNUSED ( str );
     updateAttackContact();
 }
 
 void CreateCharacterForm::dexModChanged(QString str){
+    Q_UNUSED ( str );
     updateDef();
     updateAttackDistance();
 }
 void CreateCharacterForm::conModChanged(QString str){
+    Q_UNUSED ( str );
     updateHP();
 }
 void CreateCharacterForm::intModChanged(QString str){
+    Q_UNUSED ( str );
     updateAttackMagical();
 }
 void CreateCharacterForm::sagModChanged(QString str){
+    Q_UNUSED ( str );
     updateAttackMagical();
 }
 void CreateCharacterForm::chaModChanged(QString str){
+    Q_UNUSED ( str );
 }
 
 
 void CreateCharacterForm::forRaceChanged(QString str){
+    Q_UNUSED ( str );
     setForModifier();
 }
 
 void CreateCharacterForm::dexRaceChanged(QString str){
+    Q_UNUSED ( str );
     setDexModifier();
 }
 void CreateCharacterForm::conRaceChanged(QString str){
+    Q_UNUSED ( str );
     setConModifier();
 }
 void CreateCharacterForm::intRaceChanged(QString str){
+    Q_UNUSED ( str );
     setIntModifier();
 }
 void CreateCharacterForm::sagRaceChanged(QString str){
+    Q_UNUSED ( str );
     setSagModifier();
 }
 void CreateCharacterForm::chaRaceChanged(QString str){
+    Q_UNUSED ( str );
     setChaModifier();
 }
 
@@ -380,6 +399,7 @@ void CreateCharacterForm::updateAttackMagical(){
 
 
 void CreateCharacterForm::check_validity(QString str){
+    Q_UNUSED ( str );
     bool pbFlag=false;
     if(ui->forEdit->text().length()==0){
         pbFlag=true;

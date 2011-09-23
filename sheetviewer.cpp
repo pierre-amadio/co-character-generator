@@ -91,7 +91,7 @@ void sheetViewer::drawStuff(QPainter *painter) {
 
     painter->drawText(520,180,QString::number(character->attackContact));
     painter->drawText(520,202,QString::number(character->attackDistance));
-    if(character->charClass==ID_PRIEST | character->charClass==ID_WIZARD) {
+    if((character->charClass==ID_PRIEST) | (character->charClass==ID_WIZARD)) {
         painter->drawText(520,224,QString::number(character->attackMagical));
     }
 
@@ -112,6 +112,7 @@ void sheetViewer::drawStuff(QPainter *painter) {
 }
 
 void sheetViewer::paintEvent(QPaintEvent *event) {
+    Q_UNUSED ( event );
     QPainter painter(this);
     drawStuff(&painter);
 }

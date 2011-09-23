@@ -125,6 +125,9 @@ void randomCaracForm::rollDice(){
 
 
 void randomCaracForm::caracSetSelectionChanged(const QItemSelection &selected,const QItemSelection &deselected){
+    Q_UNUSED ( selected );
+    Q_UNUSED ( deselected );
+
     //qDebug()<<"Selection changed";
     QModelIndexList items = selected.indexes();
     //QModelIndex index;
