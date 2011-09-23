@@ -37,6 +37,9 @@ MainWindow::MainWindow(QWidget *parent) :
 
     connect(ui->actionNew_Character,SIGNAL(triggered()),this,SLOT(newCharacter()));
     connect(ui->actionNew_Character_free_input,SIGNAL(triggered()),this,SLOT(newCharacterFreeInput()));
+    connect(ui->actionQuit,SIGNAL(triggered()),this,SLOT(quit()));
+    connect(ui->actionAbout,SIGNAL(triggered()),this,SLOT(about()));
+
     connect(ui->deleteCharButton,SIGNAL(clicked()),this,SLOT(deleteCharacter()));
     connect(ui->viewSheetButton,SIGNAL(clicked()),this,SLOT(displayCharacterSheet()));
 
@@ -65,6 +68,22 @@ MainWindow::~MainWindow()
     delete dbModel;
 }
 
+void MainWindow::quit(){
+    this->close();
+}
+
+void MainWindow::about(){
+    QMessageBox::about(this,tr("About CO"),
+                       tr("<h2>Forgotten Chronicles Character Sheet Generator</h2>"
+                          "<p>Copyright &copy; 2011 Pierre Amadio &lt;pierre.amadio@libertysurf.fr&gt;"
+                          "<p>This application is released under the GPL Licence. This mean you have the right to "
+                          "run it, access its source code, modify it, and redistribute it (as long as you "
+                          "give the same right to whoever you redistribute the original, or a modified version)."
+                          "<p>More details are available on http://www.gnu.org/licenses/"
+                          "<p>The source code is available on https://gitorious.org/co-character-generator "
+                          )
+                       );
+}
 
 void MainWindow::newCharacter(){
     //qDebug()<<"New Character";

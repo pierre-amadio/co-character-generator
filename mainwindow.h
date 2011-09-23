@@ -44,6 +44,8 @@ private:
 private slots:
     void newCharacter();
     void newCharacterFreeInput();
+    void quit();
+    void about();
     void deleteCharacter();
     void displayCharacterSheet();
     void dbViewSelectionChanged(const QItemSelection &selected,const QItemSelection &deselected);
