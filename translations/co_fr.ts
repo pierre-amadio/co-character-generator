@@ -309,7 +309,7 @@
     <message>
         <location filename="charactersheetviewerform.cpp" line="38"/>
         <source>Character Sheet.</source>
-        <translation type="unfinished">Feuille de personnage</translation>
+        <translation type="unfinished">Feuille de personnage.</translation>
     </message>
 </context>
 <context>
@@ -335,7 +335,7 @@
     <message>
         <location filename="randomcaracform.cpp" line="38"/>
         <source>Dice Roll Emulator.</source>
-        <translation type="unfinished">Simualteur de dés.</translation>
+        <translation type="unfinished">Simulateur de dés.</translation>
     </message>
 </context>
 </TS>
