@@ -1,0 +1,15 @@
+Source: co-character-generator
+Section: unknown
+Priority: extra
+Maintainer: Pierre Amadio <pierre.amadio@libertysurf.fr>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.8.4
+Homepage: http://co-character-creator.nigelj.com/ 
+#Vcs-Git: git://git.debian.org/collab-maint/co-character-generator.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/co-character-generator.git;a=summary
+
+Package: co-character-generator
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: An automatic character generator.
+ An automatic character sheet generator for the 'Chroniques Oubliées' role playing game.
