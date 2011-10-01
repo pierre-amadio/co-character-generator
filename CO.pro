@@ -5,7 +5,7 @@
 QT += sql
 
 TEMPLATE = app
-TARGET = 
+TARGET = mybin 
 DEPENDPATH += .
 INCLUDEPATH += .
 
@@ -46,3 +46,13 @@ SOURCES += caracroll.cpp \
 RESOURCES += coRessources.qrc
 
 TRANSLATIONS = co_fr.ts
+
+unix:{
+DOCFILES.files = COPYING LISEZMOI.txt
+DOCFILES.path = /share/doc/CO
+
+BINARY.files = $$TARGET
+BINARY.path = /bin
+
+INSTALLS += DOCFILES BINARY 
+}
