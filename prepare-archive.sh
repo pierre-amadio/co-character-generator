@@ -10,7 +10,8 @@ TARNAME=$VERNAME.tar.gz
 
 rm -rf /tmp/$NAME
 cd /tmp
-git clone $REPODIR
+#git clone $REPODIR
+cp -r $REPODIR $NAME
 
 
 mv /tmp/$NAME /tmp/$VERNAME

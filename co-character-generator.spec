@@ -30,7 +30,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(-,root,root,-)
-%attr(0755,root,root) /bin/mybin
+%attr(0755,root,root) /bin/co-creator
 /usr/share/doc/%{name}-%{version}/COPYING
 /usr/share/doc/%{name}-%{version}/LISEZMOI.txt
 

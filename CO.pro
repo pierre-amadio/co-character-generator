@@ -5,7 +5,7 @@
 QT += sql
 
 TEMPLATE = app
-TARGET = mybin 
+TARGET = co-creator 
 DEPENDPATH += .
 INCLUDEPATH += .
 
