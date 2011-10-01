@@ -8,6 +8,8 @@ NAME=`basename $REPODIR`
 VERNAME=$NAME-$VERSION
 TARNAME=$VERNAME.tar.gz
 
+make clean
+make distclean
 rm -rf /tmp/$NAME
 cd /tmp
 #git clone $REPODIR
