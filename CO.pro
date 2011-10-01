@@ -53,7 +53,7 @@ TRANSLATIONS = co_fr.ts
 unix:{
 
 DOCFILES.files = COPYING LISEZMOI.txt
-DOCFILES.path = /usr/share/doc/CO-$$VERSION
+DOCFILES.path = /usr/share/doc/co-character-generator-$$VERSION
 
 BINARY.files = $$TARGET
 BINARY.path = /bin
