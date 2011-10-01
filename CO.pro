@@ -51,10 +51,9 @@ RESOURCES += coRessources.qrc
 TRANSLATIONS = co_fr.ts
 
 unix:{
-isEmpty( prefix ):prefix = /usr/local
 
 DOCFILES.files = COPYING LISEZMOI.txt
-DOCFILES.path = $$prefix/usr/share/doc/CO-$$VERSION
+DOCFILES.path = /usr/share/doc/CO-$$VERSION
 
 BINARY.files = $$TARGET
 BINARY.path = /bin
