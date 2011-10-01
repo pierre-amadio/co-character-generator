@@ -9,6 +9,9 @@ TARGET = mybin
 DEPENDPATH += .
 INCLUDEPATH += .
 
+VERSION = 1.0
+RELEASE = 0
+
 # Input
 HEADERS += caracroll.h \
            charactersheetviewerform.h \
@@ -48,8 +51,10 @@ RESOURCES += coRessources.qrc
 TRANSLATIONS = co_fr.ts
 
 unix:{
+isEmpty( prefix ):prefix = /usr/local
+
 DOCFILES.files = COPYING LISEZMOI.txt
-DOCFILES.path = /share/doc/CO
+DOCFILES.path = $$prefix/doc/CO-$$VERSION
 
 BINARY.files = $$TARGET
 BINARY.path = /bin
