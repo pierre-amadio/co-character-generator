@@ -7,7 +7,7 @@
 # This special exception was added by Craig Small in version 0.37 of dh-make.
 
 # Uncomment this to turn on verbose mode.
-#export DH_VERBOSE=1
+export DH_VERBOSE=1
 
 APPNAME := co-creator 
 	
@@ -36,7 +36,10 @@ install: build
 	dh_testroot
 	dh_clean -k
 	dh_installdirs
-	cd builddir && qmake-qt4 ../CO.pro && $(MAKE) INSTALL_ROOT=$(CURDIR)/debian/$(APPNAME) install
+	cd builddir && qmake-qt4 ../CO.pro
+	#cd builddir && qmake-qt4 ../CO.pro && $(MAKE) INSTALL_ROOT=$(CURDIR)/debian/$(APPNAME) install
+	cd builddir && $(MAKE) INSTALL_ROOT=$(CURDIR)/debian/tmp install
+
 
 binary-indep: build install
 
