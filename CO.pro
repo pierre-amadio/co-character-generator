@@ -48,7 +48,7 @@ SOURCES += caracroll.cpp \
            sheetviewer.cpp
 RESOURCES += coRessources.qrc
 
-TRANSLATIONS = co_fr.ts
+TRANSLATIONS = translations/co_fr.ts
 
 unix:{
 
