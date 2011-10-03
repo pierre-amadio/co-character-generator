@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>577</width>
-    <height>470</height>
+    <width>464</width>
+    <height>390</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -79,10 +79,16 @@
       <layout class="QGridLayout" name="healthPointLayout">
        <item row="0" column="2">
         <widget class="QLineEdit" name="healthPointEdit">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
          <property name="maximumSize">
           <size>
-           <width>50</width>
-           <height>50</height>
+           <width>30</width>
+           <height>30</height>
           </size>
          </property>
         </widget>
@@ -107,10 +113,16 @@
        </item>
        <item row="0" column="1">
         <widget class="QLineEdit" name="dvEdit">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
          <property name="maximumSize">
           <size>
-           <width>50</width>
-           <height>50</height>
+           <width>30</width>
+           <height>30</height>
           </size>
          </property>
         </widget>
@@ -128,10 +140,16 @@
        </item>
        <item row="0" column="1">
         <widget class="QLineEdit" name="defEdit">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
          <property name="maximumSize">
           <size>
-           <width>50</width>
-           <height>50</height>
+           <width>30</width>
+           <height>30</height>
           </size>
          </property>
         </widget>
@@ -164,6 +182,18 @@
     <layout class="QGridLayout" name="attackLayout">
      <item row="0" column="0">
       <widget class="QLabel" name="attackLabel">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>50</height>
+        </size>
+       </property>
        <property name="text">
         <string>Attack</string>
        </property>
@@ -171,6 +201,18 @@
      </item>
      <item row="0" column="1">
       <widget class="QLabel" name="modifLabel">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Minimum">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>50</height>
+        </size>
+       </property>
        <property name="text">
         <string>Modificator</string>
        </property>
@@ -185,10 +227,16 @@
      </item>
      <item row="1" column="1">
       <widget class="QLineEdit" name="attackContactEdit">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
        <property name="maximumSize">
         <size>
-         <width>50</width>
-         <height>50</height>
+         <width>30</width>
+         <height>30</height>
         </size>
        </property>
       </widget>
@@ -202,10 +250,16 @@
      </item>
      <item row="2" column="1">
       <widget class="QLineEdit" name="attackDistanceEdit">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
        <property name="maximumSize">
         <size>
-         <width>50</width>
-         <height>50</height>
+         <width>30</width>
+         <height>30</height>
         </size>
        </property>
       </widget>
@@ -219,10 +273,16 @@
      </item>
      <item row="3" column="1">
       <widget class="QLineEdit" name="attackMagicalEdit">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
        <property name="maximumSize">
         <size>
-         <width>50</width>
-         <height>50</height>
+         <width>30</width>
+         <height>30</height>
         </size>
        </property>
       </widget>
@@ -325,6 +385,9 @@
          <height>50</height>
         </size>
        </property>
+       <property name="toolTip">
+        <string>You can drag and drop this value to another place of your choice.</string>
+       </property>
       </widget>
      </item>
      <item row="2" column="3">
@@ -375,6 +438,9 @@
          <width>50</width>
          <height>50</height>
         </size>
+       </property>
+       <property name="toolTip">
+        <string>You can drag and drop this value to another place of your choice.</string>
        </property>
       </widget>
      </item>
@@ -449,6 +515,9 @@
          <height>50</height>
         </size>
        </property>
+       <property name="toolTip">
+        <string>You can drag and drop this value to another place of your choice.</string>
+       </property>
       </widget>
      </item>
      <item row="4" column="2">
@@ -521,6 +590,9 @@
          <width>50</width>
          <height>50</height>
         </size>
+       </property>
+       <property name="toolTip">
+        <string>You can drag and drop this value to another place of your choice.</string>
        </property>
       </widget>
      </item>
@@ -595,6 +667,9 @@
          <height>50</height>
         </size>
        </property>
+       <property name="toolTip">
+        <string>You can drag and drop this value to another place of your choice.</string>
+       </property>
       </widget>
      </item>
      <item row="6" column="2">
@@ -667,6 +742,9 @@
          <width>50</width>
          <height>50</height>
         </size>
+       </property>
+       <property name="toolTip">
+        <string>You can drag and drop this value to another place of your choice.</string>
        </property>
       </widget>
      </item>
