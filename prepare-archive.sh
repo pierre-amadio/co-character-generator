@@ -11,6 +11,8 @@ TARNAME=$VERNAME.tar.gz
 make clean
 make distclean
 rm -rf /tmp/$NAME
+rm -rf /tmp/$VERNAME
+rm $TARNAME/$VERNAME
 cd /tmp
 #git clone $REPODIR
 cp -r $REPODIR $NAME
