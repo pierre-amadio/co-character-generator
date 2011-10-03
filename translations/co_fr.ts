@@ -20,83 +20,93 @@
     </message>
     <message>
         <location filename="../createcharacterform.ui" line="62"/>
-        <location filename="../createcharacterform.ui" line="268"/>
+        <location filename="../createcharacterform.ui" line="328"/>
         <source>Race</source>
         <translation>Race</translation>
     </message>
     <message>
-        <location filename="../createcharacterform.ui" line="93"/>
+        <location filename="../createcharacterform.ui" line="99"/>
         <source>HP</source>
         <translation>PV</translation>
     </message>
     <message>
-        <location filename="../createcharacterform.ui" line="104"/>
+        <location filename="../createcharacterform.ui" line="110"/>
         <source>DV</source>
         <translation>DV</translation>
     </message>
     <message>
-        <location filename="../createcharacterform.ui" line="125"/>
+        <location filename="../createcharacterform.ui" line="137"/>
         <source>DEF</source>
         <translation>DEF</translation>
     </message>
     <message>
-        <location filename="../createcharacterform.ui" line="168"/>
+        <location filename="../createcharacterform.ui" line="198"/>
         <source>Attack</source>
         <translation>Type D&apos;attaque</translation>
     </message>
     <message>
-        <location filename="../createcharacterform.ui" line="175"/>
-        <location filename="../createcharacterform.ui" line="275"/>
+        <location filename="../createcharacterform.ui" line="217"/>
+        <location filename="../createcharacterform.ui" line="335"/>
         <source>Modificator</source>
         <translation>Modificateur</translation>
     </message>
     <message>
-        <location filename="../createcharacterform.ui" line="182"/>
+        <location filename="../createcharacterform.ui" line="224"/>
         <source>Contact</source>
         <translation>Contact</translation>
     </message>
     <message>
-        <location filename="../createcharacterform.ui" line="199"/>
+        <location filename="../createcharacterform.ui" line="247"/>
         <source>Distance</source>
         <translation>Distance</translation>
     </message>
     <message>
-        <location filename="../createcharacterform.ui" line="216"/>
+        <location filename="../createcharacterform.ui" line="270"/>
         <source>Magical</source>
         <translation>Magique</translation>
     </message>
     <message>
-        <location filename="../createcharacterform.ui" line="261"/>
+        <location filename="../createcharacterform.ui" line="321"/>
         <source>Value</source>
         <translation>Valeur</translation>
     </message>
     <message>
-        <location filename="../createcharacterform.ui" line="304"/>
+        <location filename="../createcharacterform.ui" line="364"/>
         <source>FOR</source>
         <translation>FOR</translation>
     </message>
     <message>
-        <location filename="../createcharacterform.ui" line="355"/>
+        <location filename="../createcharacterform.ui" line="389"/>
+        <location filename="../createcharacterform.ui" line="443"/>
+        <location filename="../createcharacterform.ui" line="519"/>
+        <location filename="../createcharacterform.ui" line="595"/>
+        <location filename="../createcharacterform.ui" line="671"/>
+        <location filename="../createcharacterform.ui" line="747"/>
+        <source>You can drag and drop this value to another place of your choice.</source>
+        <translation>Vous pouvez glissez/déposer cette valeur vers une autre caractéristique.</translation>
+    </message>
+    <message>
+        <location filename="../createcharacterform.ui" line="418"/>
         <source>DEX</source>
         <translation>DEX</translation>
     </message>
     <message>
-        <location filename="../createcharacterform.ui" line="428"/>
+        <location filename="../createcharacterform.ui" line="494"/>
         <source>CON</source>
         <translation>CON</translation>
     </message>
     <message>
-        <location filename="../createcharacterform.ui" line="501"/>
+        <location filename="../createcharacterform.ui" line="570"/>
         <source>INT</source>
         <translation>INT</translation>
     </message>
     <message>
-        <location filename="../createcharacterform.ui" line="574"/>
+        <location filename="../createcharacterform.ui" line="646"/>
         <source>SAG</source>
         <translation>SAG</translation>
     </message>
     <message>
-        <location filename="../createcharacterform.ui" line="647"/>
+        <location filename="../createcharacterform.ui" line="722"/>
         <source>CHA</source>
         <translation>CHA</translation>
     </message>
