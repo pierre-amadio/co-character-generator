@@ -124,12 +124,19 @@ void CreateCharacterForm::init_stuff(){
     ui->classComboBox->addItem(rules.getClassName(ID_PRIEST),ID_PRIEST);
     ui->classComboBox->addItem(rules.getClassName(ID_RANGER),ID_RANGER);
     ui->classComboBox->addItem(rules.getClassName(ID_THIEF),ID_THIEF);
+    ui->classComboBox->addItem(rules.getClassName(ID_BARD),ID_BARD);
+    ui->classComboBox->addItem(rules.getClassName(ID_MONK),ID_MONK);
+
+
 
     ui->raceComboBox->addItem(rules.getRaceName(ID_HALFELF),ID_HALFELF);
     ui->raceComboBox->addItem(rules.getRaceName(ID_ELF),ID_ELF);
     ui->raceComboBox->addItem(rules.getRaceName(ID_HUMAN),ID_HUMAN);
     ui->raceComboBox->addItem(rules.getRaceName(ID_DWARF),ID_DWARF);
     ui->raceComboBox->addItem(rules.getRaceName(ID_ORC),ID_ORC);
+    ui->raceComboBox->addItem(rules.getRaceName(ID_HALFORC),ID_HALFORC);
+    ui->raceComboBox->addItem(rules.getRaceName(ID_HALFELIN),ID_HALFELIN);
+    ui->raceComboBox->addItem(rules.getRaceName(ID_HIGHELF),ID_HIGHELF);
 
 
 
@@ -306,6 +313,22 @@ void CreateCharacterForm::raceComboBoxChanged(int idx){
 
     }
 
+    if(id_race==ID_HALFORC){
+        ui->forRaceEdit->setText("2");
+        ui->dexRaceEdit->setText("-2");
+        ui->chaRaceEdit->setText("-2");
+    }
+
+    if(id_race==ID_HALFELIN){
+        ui->dexRaceEdit->setText("2");
+        ui->forRaceEdit->setText("-2");
+    }
+    if(id_race==ID_HIGHELF){
+        ui->forRaceEdit->setText("-2");
+        ui->chaRaceEdit->setText("2");
+    }
+
+
 }
 
 
@@ -388,10 +411,13 @@ void CreateCharacterForm::updateAttackMagical(){
     //qDebug()<<"Need to update magical";
     int id_class=ui->classComboBox->itemData(ui->classComboBox->currentIndex()).toInt();
     if(id_class==ID_WIZARD){
-        int val=ui->intModEdit->text().toInt()+1;
+        int val=ui->intModEdit->text().toInt();
         ui->attackMagicalEdit->setText(QString::number(val));
     } else if(id_class==ID_PRIEST){
-        int val=ui->sagModEdit->text().toInt()+1;
+        int val=ui->sagModEdit->text().toInt();
+        ui->attackMagicalEdit->setText(QString::number(val));
+    } else if(id_class==ID_BARD){
+        int val=ui->chaModEdit->text().toInt();
         ui->attackMagicalEdit->setText(QString::number(val));
     } else {
         ui->attackMagicalEdit->setText("");
