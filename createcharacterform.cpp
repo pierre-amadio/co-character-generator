@@ -130,10 +130,10 @@ void CreateCharacterForm::init_stuff(){
 
 
     ui->raceComboBox->addItem(rules.getRaceName(ID_HALFELF),ID_HALFELF);
-    ui->raceComboBox->addItem(rules.getRaceName(ID_ELF),ID_ELF);
+    //ui->raceComboBox->addItem(rules.getRaceName(ID_ELF),ID_ELF);
     ui->raceComboBox->addItem(rules.getRaceName(ID_HUMAN),ID_HUMAN);
     ui->raceComboBox->addItem(rules.getRaceName(ID_DWARF),ID_DWARF);
-    ui->raceComboBox->addItem(rules.getRaceName(ID_ORC),ID_ORC);
+    //ui->raceComboBox->addItem(rules.getRaceName(ID_ORC),ID_ORC);
     ui->raceComboBox->addItem(rules.getRaceName(ID_HALFORC),ID_HALFORC);
     ui->raceComboBox->addItem(rules.getRaceName(ID_HALFELIN),ID_HALFELIN);
     ui->raceComboBox->addItem(rules.getRaceName(ID_HIGHELF),ID_HIGHELF);
@@ -300,6 +300,10 @@ void CreateCharacterForm::raceComboBoxChanged(int idx){
         ui->dexRaceEdit->setText("2");
     }
 
+    if(id_race==ID_HALFELF){
+        ui->sagRaceEdit->setText("2");
+        ui->conRaceEdit->setText("-2");
+    }
 
     if(id_race==ID_DWARF){
         ui->dexRaceEdit->setText("-2");
