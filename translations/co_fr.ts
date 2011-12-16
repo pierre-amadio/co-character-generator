@@ -235,62 +235,87 @@
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../corules.cpp" line="61"/>
+        <location filename="../corules.cpp" line="63"/>
         <source>Dwarf</source>
         <translation>Nain</translation>
     </message>
     <message>
-        <location filename="../corules.cpp" line="62"/>
+        <location filename="../corules.cpp" line="64"/>
         <source>Elf</source>
         <translation>Elfe</translation>
     </message>
     <message>
-        <location filename="../corules.cpp" line="63"/>
+        <location filename="../corules.cpp" line="65"/>
         <source>Half Elf</source>
         <translation>Demi Elfe</translation>
     </message>
     <message>
-        <location filename="../corules.cpp" line="64"/>
+        <location filename="../corules.cpp" line="66"/>
         <source>Human</source>
         <translation>Humain</translation>
     </message>
     <message>
-        <location filename="../corules.cpp" line="65"/>
+        <location filename="../corules.cpp" line="67"/>
         <source>Orc</source>
         <translation>Orc</translation>
     </message>
     <message>
         <location filename="../corules.cpp" line="68"/>
+        <source>Half Orc</source>
+        <translation>Demi Orc</translation>
+    </message>
+    <message>
+        <location filename="../corules.cpp" line="69"/>
+        <source>Halfelin</source>
+        <translation>Halfelin</translation>
+    </message>
+    <message>
+        <location filename="../corules.cpp" line="70"/>
+        <source>High Elf</source>
+        <translation>Haut Elfe</translation>
+    </message>
+    <message>
+        <location filename="../corules.cpp" line="73"/>
         <source>Alien</source>
         <translation>Extra terrestre</translation>
     </message>
     <message>
-        <location filename="../corules.cpp" line="73"/>
+        <location filename="../corules.cpp" line="78"/>
         <source>Warrior</source>
         <translation>Guerrier</translation>
     </message>
     <message>
-        <location filename="../corules.cpp" line="74"/>
+        <location filename="../corules.cpp" line="79"/>
         <source>Wizard</source>
         <translation>Magicien</translation>
     </message>
     <message>
-        <location filename="../corules.cpp" line="75"/>
+        <location filename="../corules.cpp" line="80"/>
         <source>Priest</source>
         <translation>Prêtre</translation>
     </message>
     <message>
-        <location filename="../corules.cpp" line="76"/>
+        <location filename="../corules.cpp" line="81"/>
         <source>Ranger</source>
         <translation>Rodeur</translation>
     </message>
     <message>
-        <location filename="../corules.cpp" line="77"/>
+        <location filename="../corules.cpp" line="82"/>
         <source>Thief</source>
         <translation>Voleur</translation>
     </message>
     <message>
-        <location filename="../corules.cpp" line="79"/>
+        <location filename="../corules.cpp" line="83"/>
+        <source>Bard</source>
+        <translation>Barde</translation>
+    </message>
+    <message>
+        <location filename="../corules.cpp" line="84"/>
+        <source>Monk</source>
+        <translation>Moine</translation>
+    </message>
+    <message>
+        <location filename="../corules.cpp" line="86"/>
         <source>None</source>
         <translation>Aucune</translation>
     </message>
