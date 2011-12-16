@@ -31,6 +31,8 @@
 #define ID_PRIEST 3
 #define ID_RANGER 4
 #define ID_THIEF 5
+#define ID_BARD 6
+#defibe ID_MONK 7
 
 class coRules
 {
