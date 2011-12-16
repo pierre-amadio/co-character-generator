@@ -50,6 +50,8 @@ int coRules::getClassLifeDice(int classeId) {
     if(classeId==ID_PRIEST) {return 8;}
     if(classeId==ID_RANGER) {return 8;}
     if(classeId==ID_THIEF) {return 6;}
+    if(classId==ID_BARD) {return 6;}
+    if(classId==ID_MONK) {return 8;}
     qDebug()<<"Unknown class Id in getClassLifeDice:"<<classeId;
     return 0;
 }
@@ -63,6 +65,9 @@ QString coRules::getRaceName(int raceId){
     if(raceId==ID_HALFELF) {return QObject::tr("Half Elf");}
     if(raceId==ID_HUMAN) {return QObject::tr("Human");}
     if(raceId==ID_ORC) {return QObject::tr("Orc");}
+    if(raceID==ID_HALFORC) {return QObject::tr("Half Orc"));}
+    if(raceID==ID_HALFELIN) {return QObject::tr("Halfelin"));}
+    if(raceID==ID_HIGHELF) {return QObject::tr("High Elf"));}
 
     qDebug()<<"Unkown raceId in getRaceName: "<<raceId;
     return QObject::tr("Alien");
@@ -75,6 +80,8 @@ QString coRules::getClassName(int classId){
     if(classId==ID_PRIEST) {return QObject::tr("Priest");}
     if(classId==ID_RANGER) {return QObject::tr("Ranger");}
     if(classId==ID_THIEF) {return QObject::tr("Thief");}
+    if(classId==ID_BARD) {return QObject::tr("Bard");}
+    if(classId==ID_MONK) {return QObject::tr("Monk");}
     qDebug()<<"Unknown classId in getClassName:"<<classId;
     return QObject::tr("None");
 
