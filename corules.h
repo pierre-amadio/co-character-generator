@@ -25,6 +25,11 @@
 #define ID_HUMAN 3
 #define ID_DWARF 4
 #define ID_ORC 5
+#define ID_HALFORC 6
+#define ID_HALFELIN 7
+#define ID_HIGHELF 8
+
+
 
 #define ID_WARRIOR 1
 #define ID_WIZARD 2
