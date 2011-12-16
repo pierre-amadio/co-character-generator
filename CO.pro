@@ -9,7 +9,7 @@ TARGET = co-creator
 DEPENDPATH += .
 INCLUDEPATH += .
 
-VERSION = 1.0
+VERSION = 1.1
 RELEASE = 0
 
 # Input
