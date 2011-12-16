@@ -88,7 +88,7 @@ void sheetViewer::drawStuff(QPainter *painter) {
 
     painter->drawText(520,180,QString::number(character->attackContact));
     painter->drawText(520,202,QString::number(character->attackDistance));
-    if((character->charClass==ID_PRIEST) | (character->charClass==ID_WIZARD)) {
+    if((character->charClass==ID_PRIEST) | (character->charClass==ID_WIZARD) | (character->charClass==ID_BARD)) {
         painter->drawText(520,224,QString::number(character->attackMagical));
     }
 
