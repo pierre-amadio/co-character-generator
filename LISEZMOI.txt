@@ -1,2 +1,4 @@
-blaa
+Ce programme est un générateur de personnage pour Chroniques Oubliées, un jeu
+de roles sur table repris par le magasine Casus Belli.
 
+Lets patches sont les bienvenus à  pierre.amadio@libertysurf.fr

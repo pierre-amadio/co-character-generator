@@ -1,6 +1,6 @@
 Summary: An automatic character generator for Chroniques Oubliées.
 Name: co-character-generator
-Version: 1.0
+Version: 1.1
 Release: 0
 License: GPL
 Group: Application/Tools
