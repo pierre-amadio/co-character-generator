@@ -243,6 +243,7 @@ void CreateCharacterForm::sagModChanged(QString str){
 }
 void CreateCharacterForm::chaModChanged(QString str){
     Q_UNUSED ( str );
+    updateAttackMagical();
 }
 
 
@@ -412,8 +413,10 @@ void CreateCharacterForm::updateAttackDistance(){
 }
 
 void CreateCharacterForm::updateAttackMagical(){
-    //qDebug()<<"Need to update magical";
+    //qDebug()<<"Need to update magical"<<id_class;
+
     int id_class=ui->classComboBox->itemData(ui->classComboBox->currentIndex()).toInt();
+
     if(id_class==ID_WIZARD){
         int val=ui->intModEdit->text().toInt();
         ui->attackMagicalEdit->setText(QString::number(val));
