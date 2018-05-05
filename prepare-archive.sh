@@ -2,7 +2,7 @@
 
 VERSION=`awk '/VERSION =/ {print $3}' CO.pro`
 RELEASE=`awk '/RELEASE =/ {print $3}' CO.pro`
-SOURCEDIR=/home/melmoth/rpmbuild/SOURCES 
+SOURCEDIR=/tmp
 REPODIR=`pwd`
 NAME=`basename $REPODIR`
 VERNAME=$NAME-$VERSION

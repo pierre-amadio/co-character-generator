@@ -15,7 +15,7 @@ builddir:
 	mkdir -p builddir
 
 builddir/Makefile: builddir
-	cd builddir && qmake-qt4 ../CO.pro
+	cd builddir && qmake ../CO.pro
 
 build: build-stamp
 
@@ -36,7 +36,7 @@ install: build
 	dh_testroot
 	dh_clean -k
 	dh_installdirs
-	cd builddir && qmake-qt4 ../CO.pro
+	cd builddir && qmake ../CO.pro
 	#cd builddir && qmake-qt4 ../CO.pro && $(MAKE) INSTALL_ROOT=$(CURDIR)/debian/$(APPNAME) install
 	cd builddir && $(MAKE) INSTALL_ROOT=$(CURDIR)/debian/tmp install
 
