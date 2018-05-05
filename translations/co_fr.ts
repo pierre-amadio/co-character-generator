@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="fr_FR">
+<TS version="2.1" language="fr_FR">
 <context>
     <name>CreateCharacterForm</name>
     <message>
@@ -202,9 +202,13 @@
         <translation type="obsolete">&lt;h2&gt;Cr&amp;eacute;ation de personnage pour Chroniques Oubli&amp;eacute;es&lt;/h2&gt;&lt;p&gt;Copyright &amp;copy; 2011 Pierre Amadio &amp;lt;pierre.amadio@libertysurf.fr &amp;gt; &lt;p&gt;Cette application est distribu&amp;eacute;e sous la licence GPL. Ceci veux dire que vous avez le droit de l&apos;utiliser, de lire son code source, de le modifier, et de redistribuer l&apos;original ou une version modifi&amp;eacute;e (dans la mesure ou vous donnez les m&amp;ecirc;mes droit &amp;agrave; la personne &amp;agrave; qui vous distribuez le logiciel). &lt;p&gt; Pour plus d&apos;information, voyez http://www.gnu.org/licences/.&lt;p&gt;Le code source est disponible &amp;agrave; https://gitorious.org/co-character-generator</translation>
     </message>
     <message>
-        <location filename="../mainwindow.cpp" line="77"/>
         <source>&lt;h2&gt;Forgotten Chronicles Character Sheet Generator&lt;/h2&gt;&lt;p&gt;Copyright &amp;copy; 2011 Pierre Amadio &amp;lt;pierre.amadio@libertysurf.fr&amp;gt;&lt;p&gt;This application is released under the GPL Licence. This mean you have the right to run it, access its source code, modify it, and redistribute it (as long as you give the same right to whoever you redistribute the original, or a modified version).&lt;p&gt;More details are available on &lt;a href=&quot;http://www.gnu.org/licenses/&quot;&gt;http://www.gnu.org/licenses/&lt;/a&gt;&lt;p&gt;The source code is available on &lt;a href=&quot;https://gitorious.org/co-character-generator&quot;&gt;https://gitorious.org/co-character-generator&lt;/a&gt; </source>
-        <translation type="unfinished">&lt;h2&gt;Cr&amp;eacute;ation de personnage pour Chroniques Oubli&amp;eacute;es&lt;/h2&gt;&lt;p&gt;Copyright &amp;copy; 2011 Pierre Amadio &amp;lt;pierre.amadio@libertysurf.fr &amp;gt; &lt;p&gt;Cette application est distribu&amp;eacute;e sous la licence GPL. Ceci veux dire que vous avez le droit de l&apos;utiliser, de lire son code source, de le modifier, et de redistribuer l&apos;original ou une version modifi&amp;eacute;e (dans la mesure ou vous donnez les m&amp;ecirc;mes droit &amp;agrave; la personne &amp;agrave; qui vous distribuez le logiciel). &lt;p&gt; Pour plus d&apos;information, voyez &lt;a href=&quot;http://www.gnu.org/licenses/licenses.fr.html&quot;&gt;http://www.gnu.org/licenses/licenses.fr.html&lt;/a&gt;.&lt;p&gt;Le code source est disponible &amp;agrave; &lt;a href=&quot;https://gitorious.org/co-character-generator&quot;&gt;https://gitorious.org/co-character-generator&lt;/a&gt;</translation>
+        <translation type="obsolete">&lt;h2&gt;Cr&amp;eacute;ation de personnage pour Chroniques Oubli&amp;eacute;es&lt;/h2&gt;&lt;p&gt;Copyright &amp;copy; 2011 Pierre Amadio &amp;lt;pierre.amadio@libertysurf.fr &amp;gt; &lt;p&gt;Cette application est distribu&amp;eacute;e sous la licence GPL. Ceci veux dire que vous avez le droit de l&apos;utiliser, de lire son code source, de le modifier, et de redistribuer l&apos;original ou une version modifi&amp;eacute;e (dans la mesure ou vous donnez les m&amp;ecirc;mes droit &amp;agrave; la personne &amp;agrave; qui vous distribuez le logiciel). &lt;p&gt; Pour plus d&apos;information, voyez &lt;a href=&quot;http://www.gnu.org/licenses/licenses.fr.html&quot;&gt;http://www.gnu.org/licenses/licenses.fr.html&lt;/a&gt;.&lt;p&gt;Le code source est disponible &amp;agrave; &lt;a href=&quot;https://gitorious.org/co-character-generator&quot;&gt;https://gitorious.org/co-character-generator&lt;/a&gt;</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="77"/>
+        <source>&lt;h2&gt;Forgotten Chronicles Character Sheet Generator&lt;/h2&gt;&lt;p&gt;Copyright &amp;copy; 2011 Pierre Amadio &amp;lt;pierre.amadio@libertysurf.fr&amp;gt;&lt;p&gt;This application is released under the GPL Licence. This mean you have the right to run it, access its source code, modify it, and redistribute it (as long as you give the same right to whoever you redistribute the original, or a modified version).&lt;p&gt;More details are available on &lt;a href=&quot;http://www.gnu.org/licenses/&quot;&gt;http://www.gnu.org/licenses/&lt;/a&gt;&lt;p&gt;The source code is available on &lt;a href=&quot;https://github.com/pierre-amadio/co-character-generator&quot;&gt;https://github.com/pierre-amadio/co-character-generator&lt;/a&gt; </source>
+        <translation></translation>
     </message>
     <message>
         <location filename="../mainwindow.cpp" line="172"/>

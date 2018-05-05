@@ -80,7 +80,7 @@ void MainWindow::about(){
                           "run it, access its source code, modify it, and redistribute it (as long as you "
                           "give the same right to whoever you redistribute the original, or a modified version)."
                           "<p>More details are available on <a href=\"http://www.gnu.org/licenses/\">http://www.gnu.org/licenses/</a>"
-                          "<p>The source code is available on <a href=\"https://gitorious.org/co-character-generator\">https://gitorious.org/co-character-generator</a> "
+                          "<p>The source code is available on <a href=\"https://github.com/pierre-amadio/co-character-generator\">https://github.com/pierre-amadio/co-character-generator</a> "
                           )
                        );
 }
