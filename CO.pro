@@ -3,6 +3,8 @@
 ######################################################################
 
 QT += sql
+QT += widgets
+QT += printsupport
 
 TEMPLATE = app
 TARGET = co-creator 

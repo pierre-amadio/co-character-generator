@@ -18,6 +18,7 @@
 #ifndef RANDOMCARACFORM_H
 #define RANDOMCARACFORM_H
 
+#include <QItemSelection>
 #include <QDialog>
 #include <QVector>
 #include <QStandardItemModel>
