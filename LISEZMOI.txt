@@ -2,3 +2,15 @@ Ce programme est un générateur de personnage pour Chroniques Oubliées, un jeu
 de roles sur table repris par le magasine Casus Belli.
 
 Lets patches sont les bienvenus à  pierre.amadio@libertysurf.fr
+
+Installation:
+
+#Debian 
+sudo apt-get install qt5-default qt5-qmake qt5-doc-html cmake qt5-qmltooling-plugins qttools5-dev-tools libqt5webkit5-dev libqt5svg5-dev qtbase5-dev g++ 
+
+qmake CO.pro
+make
+
+                               
+
+
