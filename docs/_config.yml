@@ -1,1 +1,4 @@
 theme: jekyll-theme-time-machine
+show_downloads: true
+title: Chronique Oubliées : Générateur de feuille de perso.
+description: Un petit outil pour créer des feuilles de perso pour Chroniques Oubliées.
